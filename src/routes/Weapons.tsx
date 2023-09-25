@@ -53,12 +53,12 @@ const SortTitleBox = styled.div`
 
 const SortWeaponBox = styled.ul`
   padding: 10px;
-  display: flex;
   font-size: 10px;
   background-color: ${(props) => props.theme.box2Color};
 `;
 
 const WeaponBox = styled.li`
+  display: inline-block;
   width: 18%;
   min-height: 80px;
   margin-right: 10px;
@@ -93,6 +93,7 @@ const WeaponBox = styled.li`
 `;
 
 const WeaponBoxL = styled.li`
+  display: inline-block;
   width: 18%;
   min-height: 80px;
   margin-right: 10px;
@@ -128,6 +129,7 @@ const WeaponBoxL = styled.li`
 `;
 
 const WeaponBoxR = styled.li`
+  display: inline-block;
   width: 18%;
   min-height: 80px;
   margin-right: 10px;
